@@ -2,8 +2,6 @@ import "./collection.styles.scss";
 import CollectionItem from "../../components/collection-item/collection-item";
 import { connect } from "react-redux";
 
-import { createSelector } from "reselect";
-
 import { selectCollection } from "../../redux/shop/shop.selector";
 
 const CollectionPage = ({ collection }) => {

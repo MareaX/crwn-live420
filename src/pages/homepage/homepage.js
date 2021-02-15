@@ -1,12 +1,13 @@
-import "./homepage.styles.scss";
-
 import Directory from "../../components/directory/directory";
+
+import {HomePageContainer} from"./homepage.styles.js";
+
 
 const HomePage = ({history}) => {
   return (
-    <div className="homepage">
+    <HomePageContainer>
       <Directory />
-    </div>
+    </HomePageContainer>
   );
 };
 
