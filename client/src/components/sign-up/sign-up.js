@@ -29,12 +29,6 @@ const SignUp = () => {
         password
       );
       await createUserProfileDocument(user, { displayName });
-      setUserCredentials({
-        displayName: "",
-        email: "",
-        password: "",
-        confirmPassword: "",
-      });
     } catch (error) {
       console.error(error);
     }
